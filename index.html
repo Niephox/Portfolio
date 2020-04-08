@@ -8,13 +8,29 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d50f80a898.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projectStyle.css">
     <title>Niephox</title>
 </head>
 
 <body>
-    <!-- <h1 class="alert">UNDER CONSTRUCTION</h1> -->
+    <div class="alert">
+        <h1 class="alert-h">UNDER CONSTRUCTION</h1>
+        <div class="alert-info">
+            <h3>Hello!</h3>
+            <h4>Welcome to my portfolio page!</h4>
+            <p>As you can see it is still under construction.
+             <br> Since im building this from the ground up , it's gonna take some time to be  complete.
+             <br> I can only work  on this at about two hours a day.
+            </p>
+            <h5>Scroll down to see it's currrent state.</h5>
+            
+            <a href="#brand"> <span class="chevron bottom "></span></a>
+           
+        </div>
+    </div>
+    
     <nav>
-        <li class="brand">
+        <li class="brand" id="brand">
             <h1 class="heading-l">Niephox</h1>
         </li>
         <li class="item"> Projects</li>
@@ -22,62 +38,180 @@
         <li class="item"> Contact </li>
 
     </nav>
+
     <section class="s-projects">
-        <!-- PROJECT Template -->
+        <!--
+             PROJECT Template
+             3 parts collumn 
+
+             HEADER
+             Description
+             Details/Links
+
+         -->
         <div class="project">
-            <!-- Header -->
+            <!-- PT1 Header -->
             <div class="p-header">Project Name</div>
-            <!-- Main Body -->
-            <div class="p-main">
+            <!-- PT1 End  -->
+
+            <!-- PT2 Main Body -->
+            <div class="p-desc">
                 <!-- Video Link  -->
-                <div class="p-video-cont">
+                <div class="desc-vid-cont">
                     <!-- <embed class="video" src="https://www.youtube.com/embed/bU1bCg5uTeE"></embed> -->
-                    <div class="video">Temp video Container</div>
+                    <div class="video">
+                        <embed class="video" src="https://www.youtube.com/embed/bU1bCg5uTeE"></embed>
+                    </div>
                 </div>
+                <!-- About the project body -->
+                <div class="desc-about-cont">
+                    <h4 class="desc-about-header">About</h4>
+                    <p class="desc-about-p">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis quos vel,
+                        accusamus,
+                        nesciunt tempore assumenda excepturi quidem possimus nobis mollitia, odit aut? Nulla
+                        recusandae
+                        suscipit doloremque quis quam commodi.
+                    </p>
+                    <p class="desc-about-link">Download the demo <a href="https://niephox.itch.io/" target="_blank"><i class="fab fa-itch-io"></i></a></i>
+                    </p>
+                </div>
+            </div>
+            <!-- P2 End  -->
 
-
-                <!-- Text  Section  -->
-                <div class="p-text-cont">
-                    <!-- About the project body -->
-                    <div class="d-about">
-                        <h4>About</h4>
-                        <p class="d-p-about">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis quos vel,
-                            accusamus,
-                            nesciunt tempore assumenda excepturi quidem possimus nobis mollitia, odit aut? Nulla
-                            recusandae
-                            suscipit doloremque quis quam commodi.
-                        </p>
-                    </div>
-                    <!-- project Plan  -->
-                    <div class="d-plan">
-                        <h4>plan</h4>
-                        <p class="d-p-plan">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis quos vel,
-                            accusamus,
-                            nesciunt tempore assumenda excepturi quidem possimus nobis mollitia, odit aut? Nulla
-                            recusandae
-                            suscipit doloremque quis quam commodi.
-                        </p>
-                    </div>
-
-                    <!-- Essential Links -->
-                    <div class="p-links">
-                        <li><a href="https://github.com/Niephox"><i class="fab fa-github" target="_blank"></i></a>Link 1
-                        </li>
-                        <li><a href="https://www.youtube.com/channel/UCzAVx7eQo41hnCWMvH2c5wQ"><i class="fab fa-youtube"
-                                    target="_blank"></i></a></i>Link 2</li>
-                        <li><a href="https://niephox.itch.io/" target="_blank"><i
-                                    class="fab fa-itch-io"></i></a></i>Link 3</li>
-                        <li><a href="https://www.twitch.tv/niephox" target="_blank"><i
-                                    class="fab fa-twitch"></i></a>Link 4</li>
-                    </div>
-                    <!-- Text Container Close -->
+            <!-- PT3 Details/Links -->
+            <div class="p-det">
+                <!-- project Plan  -->
+                <div class="p-det-cont">
+                    <h4 class="p-det-header">plan</h4>
+                    <p class="p-det-p">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis quos vel,
+                        accusamus,
+                        nesciunt tempore assumenda excepturi quidem possimus nobis mollitia, odit aut? Nulla
+                        recusandae
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis quos vel,
+                        accusamus,
+                        nesciunt tempore assumenda excepturi quidem possimus nobis mollitia, odit aut? Nulla
+                        recusandae
+                        suscipit doloremque quis quam commodi.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis quos vel,
+                        accusamus,
+                        nesciunt tempore assumenda excepturi quidem possimus nobis mollitia, odit aut? Nulla
+                        recusandae
+                        suscipit doloremque quis quam commodi.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis quos vel,
+                        accusamus,
+                        nesciunt tempore assumenda excepturi quidem possimus nobis mollitia, odit aut? Nulla
+                        recusandae
+                        suscipit doloremque quis quam commodi.
+                        suscipit doloremque quis quam commodi.
+                    </p>
+                </div>
+                <!-- Essential Links -->
+                <div class="p-det-links">
+                    <li><a href="https://github.com/Niephox"><i class="fab fa-github" target="_blank"></i></a>
+                    </li>
+                    <li><a href="https://www.youtube.com/channel/UCzAVx7eQo41hnCWMvH2c5wQ"><i class="fab fa-youtube"
+                                target="_blank"></i></a></i></li>
+                    <li><a href="https://niephox.itch.io/" target="_blank"><i class="fab fa-itch-io"></i></a></i>
+                    </li>
+                    <li><a href="https://www.twitch.tv/niephox" target="_blank"><i class="fab fa-twitch"></i></a>
+                    </li>
                 </div>
             </div>
         </div>
+
+        <div class="project">
+            <!-- PT1 Header -->
+            <div class="p-header">Project Name</div>
+            <!-- PT1 End  -->
+
+            <!-- PT2 Main Body -->
+            <div class="p-desc">
+                <!-- Video Link  -->
+                <div class="desc-vid-cont">
+                    <!-- <embed class="video" src="https://www.youtube.com/embed/bU1bCg5uTeE"></embed> -->
+                    <div class="video">
+                        <embed class="video" src="https://www.youtube.com/embed/bU1bCg5uTeE"></embed>
+                    </div>
+                </div>
+                <!-- About the project body -->
+                <div class="desc-about-cont">
+                    <h4 class="desc-about-header">About</h4>
+                    <p class="desc-about-p">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis quos vel,
+                        accusamus,
+                        nesciunt tempore assumenda excepturi quidem possimus nobis mollitia, odit aut? Nulla
+                        recusandae
+                        suscipit doloremque quis quam commodi.
+                    </p>
+                    <p class="desc-about-link">Download the demo <a href="https://niephox.itch.io/" target="_blank"><i class="fab fa-itch-io"></i></a></i>
+                    </p>
+                </div>
+            </div>
+            <!-- P2 End  -->
+
+            <!-- PT3 Details/Links -->
+            <div class="p-det">
+                <!-- project Plan  -->
+                <div class="p-det-cont">
+                    <h4 class="p-det-header">plan</h4>
+                    <p class="p-det-p">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis quos vel,
+                        accusamus,
+                        nesciunt tempore assumenda excepturi quidem possimus nobis mollitia, odit aut? Nulla
+                        recusandae
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis quos vel,
+                        accusamus,
+                        nesciunt tempore assumenda excepturi quidem possimus nobis mollitia, odit aut? Nulla
+                        recusandae
+                        suscipit doloremque quis quam commodi.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis quos vel,
+                        accusamus,
+                        nesciunt tempore assumenda excepturi quidem possimus nobis mollitia, odit aut? Nulla
+                        recusandae
+                        suscipit doloremque quis quam commodi.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste perspiciatis quos vel,
+                        accusamus,
+                        nesciunt tempore assumenda excepturi quidem possimus nobis mollitia, odit aut? Nulla
+                        recusandae
+                        suscipit doloremque quis quam commodi.
+                        suscipit doloremque quis quam commodi.
+                    </p>
+                </div>
+                <!-- Essential Links -->
+                <div class="p-det-links">
+                    <li><a href="https://github.com/Niephox"><i class="fab fa-github" target="_blank"></i></a>
+                    </li>
+                    <li><a href="https://www.youtube.com/channel/UCzAVx7eQo41hnCWMvH2c5wQ"><i class="fab fa-youtube"
+                                target="_blank"></i></a></i></li>
+                    <li><a href="https://niephox.itch.io/" target="_blank"><i class="fab fa-itch-io"></i></a></i>
+                    </li>
+                    <li><a href="https://www.twitch.tv/niephox" target="_blank"><i class="fab fa-twitch"></i></a>
+                    </li>
+                </div>
+            </div>
         </div>
-        </div>
+        
+
+        
+         
     </section>
+    <footer>
+         <li class="brand" id="brand">
+            <h1 class="heading-l">Niephox</h1>
+        </li>
+        <div class="p-det-links">
+            <li><a href="https://github.com/Niephox"><i class="fab fa-github" target="_blank"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com/channel/UCzAVx7eQo41hnCWMvH2c5wQ"><i class="fab fa-youtube"
+                        target="_blank"></i></a></i></li>
+            <li><a href="https://niephox.itch.io/" target="_blank"><i class="fab fa-itch-io"></i></a></i>
+            </li>
+            <li><a href="https://www.twitch.tv/niephox" target="_blank"><i class="fab fa-twitch"></i></a>
+            </li>
+        </div>
+    </footer>
 </body>
+
 </html>
