@@ -15,132 +15,132 @@
 #f7510a */
 
 :root {
-    --p-ac: #fac915;
-    --p-m: #f68b0d;
-    --p-d: #d74009;
-    --p-b: #7e1506;
-    --font-east: 'East Sea Dokdo', cursive;
-    --font-rob: 'Roboto', sans-serif;
+  --p-ac: #fac915;
+  --p-m: #f68b0d;
+  --p-d: #d74009;
+  --p-b: #7e1506;
+  --font-east: "East Sea Dokdo", cursive;
+  --font-rob: "Roboto", sans-serif;
 }
 
-.alert {
-    padding: 0;
-    margin: 0;
-    font-size: 10em;
-    color: var(--p-d);
-    font-family: var(--font-east);
-}
-
+/* General */
 html {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 body {
-    box-sizing: border-box;
-    font-family: var(--font-rob);
+  box-sizing: border-box;
+  font-family: var(--font-rob);
+}
+
+/* Misc */
+.alert {
+  padding: 0;
+  margin: 0;
+  font-size: 10em;
+  color: var(--p-d);
+  font-family: var(--font-east);
 }
 
 .heading-l {
-    margin: 0;
-    padding: 0;
-    font-family: var(--font-east);
-    font-size: 5em;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-east);
+  font-size: 5em;
 }
 
+/* Navbar */
 nav {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-    padding: 10px;
-
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
 }
 
 .brand {
-    margin-right: auto;
-    flex: 0 0 20%;
-    color: var(--p-d);
+  margin-right: auto;
+  flex: 0 0 20%;
+  color: var(--p-d);
 }
 
 .item {
-    /* color: var(--p-d); */
-    color: black;
-
-    font-size: 1.5em;
-    padding: 10px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  /* color: var(--p-d); */
+  color: black;
+  font-size: 1.5em;
+  padding: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-
+/* Project Section */
 .s-projects {
-
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-    min-height: 0;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  min-height: 0;
 }
 
+/* PROJECT TEMPLATE */
 .project {
-
-    padding: 5px;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  border: 1px solid black;
+  padding: 5px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .p-header {
-    text-align: center;
-    width: 100%;
-    font-size: 2em;
-    font-weight: 800;
-    padding: 0;
-    margin: 10px;
-    text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  font-size: 2em;
+  font-weight: 800;
+  padding: 0;
+  margin: 10px;
+  text-transform: uppercase;
 }
 
 .p-main {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    flex: 0 0 80%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  flex: 0 0 80%;
 }
 
 .p-desc {
-    display: flex;
-    flex-flow: column;
-    margin: 10px;
-    flex: auto;
-    letter-spacing: 1px;
-
+  display: flex;
+  flex-flow: column;
+  margin: 10px;
+  flex: auto;
+  letter-spacing: 1px;
 }
 
 .p-links {
-    flex: 0 0 20%;
-    align-self: flex-end;
-    list-style: none;
-
+  flex: 0 0 20%;
+  align-self: flex-end;
+  list-style: none;
 }
 
 .p-links li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .video {
-    flex: 0 0 40%;
-    height: 250px;
-    box-shadow: 0 1px 2px black;
-    margin: 10px;
+  flex: 0 0 40%;
+  height: 250px;
+  box-shadow: 0 1px 2px black;
+  margin: 10px;
+  background-color: black;
 }
 
 i {
-    text-decoration: none;
-    font-size: 1.5em;
-    padding: 5px;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 5px;
 }
